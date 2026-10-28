@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | ICT OPTION</title>
+<meta name="description" content="Questions about our services or products? Send ICT OPTION a message or visit us in Avissawella, Sri Lanka. We will reply soon.">
+<link rel="canonical" href="https://ictoption.com/contact">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us | ICT OPTION">
+<meta property="og:description" content="Questions about our services or products? Send ICT OPTION a message or visit us in Avissawella, Sri Lanka. We will reply soon.">
+<meta property="og:url" content="https://ictoption.com/contact">
+<meta property="og:image" content="https://ictoption.com/assets/img/og-image.png">
+<link rel="icon" href="./assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/tailwind.css">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/base.css">
+<link rel="stylesheet" href="./assets/css/components.css">
+<link rel="stylesheet" href="./assets/css/pages.css">
+<link rel="stylesheet" href="./assets/css/forms.css">
+<link rel="stylesheet" href="./assets/css/motion.css">
+<link rel="stylesheet" href="./assets/css/desktop.css">
+</head>
+<body data-page="contact">
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- Section: Header -->
+<div id="site-header"></div>
+<main id="main">
+<!-- Section: Hero -->
+<section class="hero motion-safe:animate-fade-up">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">Contact</p>
+      <h1>Get in Touch With <b>Our Team</b></h1>
+      <p class="lead">Questions about our services or products? Send us a message and we will reply soon.</p>
+      
+    </div>
+      <div class="hero__media"><img src="./assets/img/photos/office-team.jpg" alt="Team members working together in a bright office" width="560" height="440"></div>
+  </div>
+</section>
+<!-- Section: Contact -->
+<section class="section">
+  <div class="container form-layout">
+    <div class="form-panel">
+      <form class="form" id="contact-form" novalidate data-success="contact-success">
+        <div class="form-summary-host"></div>
+        <div class="field"><label for="c-name">Full name<span class="req" aria-hidden="true">*</span></label><input type="text" id="c-name" name="c-name" autocomplete="name" aria-required="true" data-validate="required" data-label="full name"></div>
+        <div class="field"><label for="c-email">Email<span class="req" aria-hidden="true">*</span></label><input type="email" id="c-email" name="c-email" autocomplete="email" aria-required="true" data-validate="required email" data-label="email address"></div>
+        <div class="field"><label for="c-phone">Phone</label><input type="tel" id="c-phone" name="c-phone" autocomplete="tel" data-validate="phone" data-label="phone"></div>
+        <div class="field"><label for="c-subject">Subject</label><select id="c-subject" name="subject" data-options="subjects"></select></div>
+        <div class="field"><label for="c-message">Message<span class="req" aria-hidden="true">*</span></label><textarea id="c-message" name="c-message" rows="5" aria-required="true" data-validate="required" data-label="message"></textarea></div>
+        <button class="btn btn-dark" type="submit">Send Message <svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#arrow"/></svg></button>
+      </form>
+      <div class="form-success" id="contact-success" hidden>
+        <span class="ic"><svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#check"/></svg></span>
+        <h2>Thank you.</h2>
+        <p>We have received your message.</p>
+        <a class="btn btn-dark" href="./index.html" data-route="home">Back to Home</a>
+      </div>
+    </div>
+    <div>
+      <div class="contact-cards">
+        <article class="card contact-card"><span class="ic"><svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#pin"/></svg></span><div><h3>Address</h3><p data-site="address"></p></div></article>
+        <article class="card contact-card"><span class="ic"><svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#mail"/></svg></span><div><h3>Email</h3><p><a data-site="email"></a></p></div></article>
+        <article class="card contact-card"><span class="ic"><svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#call"/></svg></span><div><h3>Phone</h3><p><a data-site="phone"></a><br><a data-site="phone2"></a></p></div></article>
+      </div>
+      <div class="map"><img src="./assets/img/map-placeholder.svg" alt="Map placeholder showing the ICT OPTION office location" width="640" height="360" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+<!-- Section: FAQ -->
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head section-head--center reveal"><h2>Common Questions</h2></div>
+    <div data-render="faq-contact"></div>
+  </div>
+</section>
+</main>
+<!-- Section: Footer -->
+<div id="site-footer"></div>
+<script src="./assets/js/layout.js" defer></script>
+<script src="./assets/js/router.js" defer></script>
+<script src="./assets/js/reveal.js" defer></script>
+<script src="./assets/js/render.js" defer></script>
+<script src="./assets/js/nav.js" defer></script>
+<script src="./assets/js/faq.js" defer></script>
+<script src="./assets/js/form.js" defer></script>
+</body>
+</html>

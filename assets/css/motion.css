@@ -1,0 +1,41 @@
+/* Motion uses transform and opacity only. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.5s ease, transform 0.5s ease; }
+  .js .reveal.is-visible { opacity: 1; transform: none; }
+  .grid > .reveal:nth-child(3n+2) { transition-delay: 0.08s; }
+  .grid > .reveal:nth-child(3n+3) { transition-delay: 0.16s; }
+
+  .card { transition: transform 0.25s ease; }
+  .card:hover { transform: translateY(-4px); }
+  .js .card.reveal.is-visible { transition: opacity 0.5s ease, transform 0.25s ease; }
+  .btn .i, .card__link .i { transition: transform 0.2s ease; }
+  .btn:hover .i, .card:hover .card__link .i { transform: translateX(3px); }
+  .menu { transition: transform 0.3s ease; }
+  .burger span { transition: transform 0.25s ease, opacity 0.25s ease; }
+
+  .hero__media img { animation: float 6s ease-in-out infinite; }
+  .hero__media img, .hero-img { filter: drop-shadow(0 18px 26px rgba(22, 74, 126, 0.12)); }
+  .hero__media::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 12% 8%;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(63, 166, 245, 0.14), rgba(63, 166, 245, 0) 68%);
+    animation: glow 5s ease-in-out infinite alternate;
+  }
+  .hero__media { position: relative; isolation: isolate; }
+  .card img, .featured img, .article__img img, .split__media img, .map img, .nf-img, .about-img {
+    transition: transform 450ms cubic-bezier(0.2, 0.7, 0.2, 1), filter 450ms ease;
+  }
+  .card:hover img, .featured:hover img, .article__img:hover img, .map:hover img {
+    transform: scale(1.025);
+  }
+  .split__media:hover img, .about-img:hover { transform: translateY(-4px); }
+  @keyframes float { 50% { transform: translateY(-8px); } }
+  @keyframes glow { to { opacity: 0.55; transform: scale(0.92); } }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .js .reveal { opacity: 1; transform: none; }
+}

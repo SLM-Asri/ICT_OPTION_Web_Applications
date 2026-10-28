@@ -1,0 +1,50 @@
+{
+  "story": [
+    "ICT OPTION is a Sri Lankan IT and digital solutions company. We help businesses use technology to work smarter, with web development, mobile apps, IT consulting, AI, digital marketing and cybersecurity.",
+    "We combine innovative technology, creative design and reliable support. Your success is our priority, so we listen first, build carefully and stay with you after launch."
+  ],
+  "values": [
+    {
+      "title": "Quality",
+      "icon": "star",
+      "text": "Careful work, tested before it reaches you."
+    },
+    {
+      "title": "Integrity",
+      "icon": "shield",
+      "text": "Honest advice and clear communication."
+    },
+    {
+      "title": "Innovation",
+      "icon": "bulb",
+      "text": "Modern ideas turned into practical solutions."
+    },
+    {
+      "title": "Partnership",
+      "icon": "users",
+      "text": "We work alongside you, not just for you."
+    }
+  ],
+  "team": [
+    {
+      "name": "Team Member Name",
+      "role": "Managing Director",
+      "image": "./assets/img/team-1.svg"
+    },
+    {
+      "name": "Team Member Name",
+      "role": "Lead Developer",
+      "image": "./assets/img/team-2.svg"
+    },
+    {
+      "name": "Team Member Name",
+      "role": "UI/UX Designer",
+      "image": "./assets/img/team-3.svg"
+    },
+    {
+      "name": "Team Member Name",
+      "role": "Digital Marketing Lead",
+      "image": "./assets/img/team-4.svg"
+    }
+  ]
+}

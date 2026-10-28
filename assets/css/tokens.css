@@ -1,0 +1,44 @@
+/* Design tokens. Scale matches the ICT OPTION home page. */
+:root {
+  --ink: #0b0f1a;
+  --blue: #1e90e8;
+  --blue-dark: #1577c7;
+  --blue-light: #3fa6f5;
+  --soft: #e8f2fd;
+  --mute: #5f86b0;
+  --line: #e6edf5;
+  --line-strong: #d5e0ee;
+  --dark: #060a12;
+  --bg: #f4f8fc;
+  --white: #fff;
+  --text: #1d2f4a;
+  --text-soft: #4b6584;
+  --danger: #c62828;
+  --danger-soft: #fdecec;
+  --success: #1e7e34;
+  --success-soft: #e8f6ec;
+
+  --font-head: "Poppins", Arial, sans-serif;
+  --font-body: "Poppins", Arial, sans-serif;
+
+  /* spacing scale: 4 8 12 16 20 24 32 40 48 64 72 */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 20px; --s6: 24px;
+  --s8: 32px; --s10: 40px; --s12: 48px; --s16: 64px; --s18: 72px;
+
+  --radius-sm: 6px;
+  --radius: 8px;
+  --radius-lg: 14px;
+  --shadow: 0 4px 14px rgba(40, 90, 150, 0.08);
+  --shadow-hover: 0 10px 22px rgba(40, 90, 150, 0.16);
+
+  --header-h: 72px;
+  --container: 1080px;
+  --legal-w: 760px;
+  --gutter: 15px;
+  --pad-x: 18px;
+  --section-y: 28px;
+}
+@media (min-width: 481px) { :root { --pad-x: 28px; } }
+@media (min-width: 641px) { :root { --section-y: 32px; } }
+@media (min-width: 1001px) { :root { --pad-x: 50px; } }
+@media (min-width: 1024px) { :root { --section-y: 36px; } }

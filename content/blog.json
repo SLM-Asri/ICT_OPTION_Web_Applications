@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "new-website",
+    "title": "5 Signs Your Business Needs a New Website",
+    "category": "Web Development",
+    "date": "2026-10-12",
+    "readTime": "4 min read",
+    "excerpt": "How to tell when your website is holding your business back.",
+    "image": "./assets/img/photos/website-design.jpg",
+    "imageAlt": "Web developer creating a business website",
+    "body": [
+      "Your website is often the first place a customer meets your business. If it loads slowly, looks dated or is hard to use on a phone, visitors may leave before they ever contact you.",
+      "Common warning signs include poor mobile layout, slow page speed, outdated content, no clear way to get in touch, and a design your team is embarrassed to share.",
+      "A redesign does not need to start from zero. A short review of your goals, your visitors and your current pages shows what to keep, what to improve and what to replace."
+    ]
+  },
+  {
+    "slug": "mobile-approach",
+    "title": "Native or Cross-Platform: Choosing a Mobile App Approach",
+    "category": "Mobile Apps",
+    "date": "2026-10-05",
+    "readTime": "5 min read",
+    "excerpt": "The trade-offs between native and cross-platform apps, in plain language.",
+    "image": "./assets/img/photos/mobile-device.jpg",
+    "imageAlt": "Smartphone ready to test a mobile application",
+    "body": [
+      "Native apps are built separately for iOS and Android. They can use every device feature and feel very smooth, but you build and maintain two products.",
+      "Cross-platform apps share most of their code between both systems. That usually means a faster start and lower cost, with a few limits for very device-specific features.",
+      "The right choice depends on your budget, timeline and the features you need. Start with what your customers must be able to do, then pick the approach that delivers it reliably."
+    ]
+  },
+  {
+    "slug": "ai-small-business",
+    "title": "Getting Started With AI in a Small Business",
+    "category": "AI & Machine Learning",
+    "date": "2026-09-28",
+    "readTime": "5 min read",
+    "excerpt": "Practical first steps for using AI without a large budget or team.",
+    "image": "./assets/img/photos/ai-data.jpg",
+    "imageAlt": "Artificial intelligence data visualization",
+    "body": [
+      "AI is most useful when it removes repeated work. Answering common customer questions, sorting documents and summarising reports are good places to start.",
+      "Begin with one clear task, measure the time it takes today, and test a simple tool against it. Small, measurable wins build confidence faster than a big project.",
+      "Keep people in the loop. Review results, protect customer data and be open with your team about what the tool does and does not do."
+    ]
+  },
+  {
+    "slug": "cyber-habits",
+    "title": "Simple Cybersecurity Habits Every Team Should Follow",
+    "category": "Cybersecurity",
+    "date": "2026-09-20",
+    "readTime": "4 min read",
+    "excerpt": "Everyday habits that prevent most common security problems.",
+    "image": "./assets/img/photos/cybersecurity.jpg",
+    "imageAlt": "Cybersecurity network protection",
+    "body": [
+      "Many security incidents begin with a weak password or a convincing email. Strong, unique passwords and a password manager remove a large share of the risk.",
+      "Turn on two-step verification, keep software updated and back up important data in a second location. Check that you can actually restore from those backups.",
+      "Make security part of your culture. A short regular reminder about suspicious emails does more than a long policy that nobody reads."
+    ]
+  },
+  {
+    "slug": "cloud-pos",
+    "title": "How a Cloud POS Can Simplify Retail Operations",
+    "category": "Products",
+    "date": "2026-09-12",
+    "readTime": "4 min read",
+    "excerpt": "Why more shops are moving sales and stock into the cloud.",
+    "image": "./assets/img/photos/retail-pos.jpg",
+    "imageAlt": "Point-of-sale payment at a retail counter",
+    "body": [
+      "A cloud point-of-sale system keeps sales, stock and customer records in one place that you can open from any device with an internet connection.",
+      "Because stock updates as you sell, you see what is running low before it becomes a problem. Reports show your best-selling items and your busiest hours.",
+      "For shops with more than one counter or branch, a cloud POS also means everyone works from the same up-to-date information."
+    ]
+  },
+  {
+    "slug": "marketing-metrics",
+    "title": "Digital Marketing Basics: Measuring What Matters",
+    "category": "Digital Marketing",
+    "date": "2026-09-03",
+    "readTime": "4 min read",
+    "excerpt": "Which numbers to track, and which to ignore, when you promote your business online.",
+    "image": "./assets/img/photos/marketing.jpg",
+    "imageAlt": "Digital marketing metrics on a business dashboard",
+    "body": [
+      "It is easy to get lost in likes and follower counts. Start by deciding what success means: more enquiries, more sales or more bookings.",
+      "Track the steps that lead there, such as website visits, enquiry forms sent and cost for each new customer. These numbers show what is worth repeating.",
+      "Review your results monthly, keep what works and adjust what does not. Clear reporting turns marketing from guesswork into a repeatable process."
+    ]
+  }
+]

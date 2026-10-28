@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "web-development",
+    "name": "Web Development",
+    "icon": "code",
+    "card": "Responsive websites and powerful web applications.",
+    "lead": "We create responsive, secure and scalable websites and web applications that help your business grow and succeed online.",
+    "build": [
+      "Business Websites",
+      "Web Applications",
+      "Ecommerce Solutions",
+      "Maintenance & Support"
+    ],
+    "image": "./assets/img/photos/web-development.jpg",
+    "imageAlt": "Web designer working on a modern website"
+  },
+  {
+    "slug": "mobile-app-development",
+    "name": "Mobile App Development",
+    "icon": "phone",
+    "card": "Native and cross-platform mobile applications.",
+    "lead": "We build native and cross-platform mobile apps that are fast, reliable and easy for your customers to use.",
+    "build": [
+      "iOS Apps",
+      "Android Apps",
+      "Cross-platform Apps",
+      "App Maintenance"
+    ],
+    "image": "./assets/img/photos/mobile-device.jpg",
+    "imageAlt": "Smartphone showing a mobile app"
+  },
+  {
+    "slug": "it-consulting",
+    "name": "IT Consulting",
+    "icon": "cloud",
+    "card": "Strategic technology guidance and digital transformation.",
+    "lead": "We help you choose the right technology, plan your digital changes and avoid costly mistakes.",
+    "build": [
+      "IT Assessment",
+      "Digital Strategy",
+      "Systems Planning",
+      "Vendor Selection"
+    ],
+    "image": "./assets/img/photos/consulting.jpg",
+    "imageAlt": "Technology consultants working together"
+  },
+  {
+    "slug": "ai-machine-learning",
+    "name": "AI & Machine Learning",
+    "icon": "brain",
+    "card": "Intelligent solutions that automate processes and improve decisions.",
+    "lead": "We apply AI and machine learning to automate routine work and support better business decisions.",
+    "build": [
+      "Process Automation",
+      "Data Analysis",
+      "Chatbots",
+      "Predictive Models"
+    ],
+    "image": "./assets/img/photos/ai-data.jpg",
+    "imageAlt": "Artificial intelligence data visualization"
+  },
+  {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "icon": "mega",
+    "card": "Data-driven strategies to increase visibility and engagement.",
+    "lead": "We grow your online visibility and engagement with clear strategies and measurable results.",
+    "build": [
+      "Social Media Management",
+      "Search Visibility",
+      "Content Creation",
+      "Campaign Reporting"
+    ],
+    "image": "./assets/img/photos/marketing.jpg",
+    "imageAlt": "Digital marketing analytics dashboard"
+  },
+  {
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "icon": "shield",
+    "card": "Protecting your systems, data and digital assets.",
+    "lead": "We protect your systems, data and digital assets against threats, with practical steps your team can follow.",
+    "build": [
+      "Security Audits",
+      "Network Protection",
+      "Data Backup",
+      "Staff Awareness"
+    ],
+    "image": "./assets/img/photos/cybersecurity.jpg",
+    "imageAlt": "Cybersecurity operations and network protection"
+  }
+]

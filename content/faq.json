@@ -1,0 +1,30 @@
+{
+  "service": [
+    {
+      "q": "How long does a {service} project take?",
+      "a": "It depends on the scope and complexity. Once we understand your requirements we share a clear schedule, so you know what to expect."
+    },
+    {
+      "q": "Can you tailor this service to my business?",
+      "a": "Yes. Every project starts with your goals, and we shape the scope, features and timeline to fit your business."
+    },
+    {
+      "q": "Do you provide ongoing support?",
+      "a": "Yes. After launch we offer maintenance and support so your solution keeps working well as your business grows."
+    }
+  ],
+  "contact": [
+    {
+      "q": "How quickly will you reply?",
+      "a": "We aim to reply to every message within one to two working days."
+    },
+    {
+      "q": "Can I ask about a project before I request a quote?",
+      "a": "Yes. Send us a message with a few details and our team will help you decide the best next step."
+    },
+    {
+      "q": "Do you work with businesses outside Sri Lanka?",
+      "a": "Yes. We work with clients remotely, so location is not a barrier."
+    }
+  ]
+}

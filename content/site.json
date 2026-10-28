@@ -1,0 +1,91 @@
+{
+  "name": "ICT OPTION",
+  "descriptor": "IT & Digital Solutions",
+  "tagline": "Innovative Technology, Creative Design, Your Digital Success is Our Priority.",
+  "baseUrl": "https://ictoption.com",
+  "cleanUrls": false,
+  "address": "No. S/02, Horana Road, Kadawela, Avissawella, S0200, Sri Lanka.",
+  "email": "info@ictoptionweb.com",
+  "phone": "+94 71 396 68 29",
+  "phone2": "+94 71 119 2253",
+  "nav": [
+    {
+      "label": "Home",
+      "route": "home"
+    },
+    {
+      "label": "About Us",
+      "route": "about"
+    },
+    {
+      "label": "Services",
+      "route": "services"
+    },
+    {
+      "label": "Products",
+      "route": "products"
+    },
+    {
+      "label": "Portfolio",
+      "route": "portfolio"
+    },
+    {
+      "label": "Blog",
+      "route": "blog"
+    },
+    {
+      "label": "Contact",
+      "route": "contact"
+    }
+  ],
+  "quote": {
+    "label": "Get a Quote",
+    "route": "quote"
+  },
+  "quickLinks": [
+    {
+      "label": "Home",
+      "route": "home"
+    },
+    {
+      "label": "About Us",
+      "route": "about"
+    },
+    {
+      "label": "Services",
+      "route": "services"
+    },
+    {
+      "label": "Products",
+      "route": "products"
+    },
+    {
+      "label": "Portfolio",
+      "route": "portfolio"
+    },
+    {
+      "label": "Blog",
+      "route": "blog"
+    },
+    {
+      "label": "Contact",
+      "route": "contact"
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy Policy",
+      "route": "privacy"
+    },
+    {
+      "label": "Terms",
+      "route": "terms"
+    }
+  ],
+  "email2": "support@ictoptionweb.com",
+  "tag": [
+    "Build",
+    "Innovate",
+    "Grow"
+  ]
+}

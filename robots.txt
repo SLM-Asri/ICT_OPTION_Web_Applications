@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ictoption.com/sitemap.xml

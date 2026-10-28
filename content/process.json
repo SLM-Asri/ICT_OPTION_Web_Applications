@@ -1,0 +1,22 @@
+[
+  {
+    "num": "01",
+    "title": "Discover",
+    "text": "Understand your goals and requirements."
+  },
+  {
+    "num": "02",
+    "title": "Design",
+    "text": "Create the user interface and experience."
+  },
+  {
+    "num": "03",
+    "title": "Develop",
+    "text": "Build and test the solution."
+  },
+  {
+    "num": "04",
+    "title": "Launch",
+    "text": "Deploy and provide ongoing support."
+  }
+]

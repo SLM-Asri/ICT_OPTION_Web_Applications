@@ -1,0 +1,22 @@
+{
+  "subjects": [
+    "General",
+    "Services",
+    "Products",
+    "Support"
+  ],
+  "budgets": [
+    "Under LKR 100,000",
+    "LKR 100,000 to 300,000",
+    "LKR 300,000 to 750,000",
+    "Over LKR 750,000",
+    "Not sure yet"
+  ],
+  "timelines": [
+    "As soon as possible",
+    "Within 1 month",
+    "1 to 3 months",
+    "3 to 6 months",
+    "Flexible"
+  ]
+}

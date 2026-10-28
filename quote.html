@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get a Quote | ICT OPTION</title>
+<meta name="description" content="Request your free quote in three simple steps. Share a few details about your project and ICT OPTION will send a clear, no-obligation quote.">
+<link rel="canonical" href="https://ictoption.com/quote">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Get a Quote | ICT OPTION">
+<meta property="og:description" content="Request your free quote in three simple steps. Share a few details about your project and ICT OPTION will send a clear, no-obligation quote.">
+<meta property="og:url" content="https://ictoption.com/quote">
+<meta property="og:image" content="https://ictoption.com/assets/img/og-image.png">
+<link rel="icon" href="./assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/tailwind.css">
+<link rel="stylesheet" href="./assets/css/tokens.css">
+<link rel="stylesheet" href="./assets/css/base.css">
+<link rel="stylesheet" href="./assets/css/components.css">
+<link rel="stylesheet" href="./assets/css/pages.css">
+<link rel="stylesheet" href="./assets/css/forms.css">
+<link rel="stylesheet" href="./assets/css/motion.css">
+<link rel="stylesheet" href="./assets/css/desktop.css">
+</head>
+<body data-page="quote">
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- Section: Header -->
+<div id="site-header"></div>
+<main id="main">
+<!-- Section: Hero -->
+<section class="hero motion-safe:animate-fade-up">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">Get a Quote</p>
+      <h1>Request Your <b>Free Quote</b></h1>
+      <p class="lead">Share a few details and we will send you a clear, no-obligation quote.</p>
+      
+    </div>
+      <div class="hero__media"><img src="./assets/img/photos/consulting.jpg" alt="Business consultants discussing a new project" width="560" height="440"></div>
+  </div>
+</section>
+<!-- Section: Quote form -->
+<section class="section">
+  <div class="container form-layout">
+    <div class="form-panel">
+      <ol class="stepper" aria-label="Quote progress"><li>Your Details</li><li>Your Project</li><li>Final Details</li></ol>
+      <form class="form wizard" id="quote-form" novalidate data-success="quote-success">
+        <div class="form-summary-host"></div>
+        <div class="step-panel">
+        <p class="step-count">Step 1 of 3</p>
+        <h2>Your details</h2>
+        <p class="lead">Tell us who we should get in touch with.</p>
+        <div class="field-row"><div class="field"><label for="q-name">Full name<span class="req" aria-hidden="true">*</span></label><input type="text" id="q-name" name="q-name" autocomplete="name" aria-required="true" data-validate="required" data-label="full name"></div><div class="field"><label for="q-company">Company</label><input type="text" id="q-company" name="q-company" autocomplete="organization"></div></div><div class="field-row"><div class="field"><label for="q-email">Email<span class="req" aria-hidden="true">*</span></label><input type="email" id="q-email" name="q-email" autocomplete="email" aria-required="true" data-validate="required email" data-label="email address"></div><div class="field"><label for="q-phone">Phone</label><input type="tel" id="q-phone" name="q-phone" autocomplete="tel" data-validate="phone" data-label="phone"></div></div>
+      </div>
+        <div class="step-panel" hidden>
+        <p class="step-count">Step 2 of 3</p>
+        <h2>About your project</h2>
+        <p class="lead">Choose what you need. You can select more than one.</p>
+        <fieldset class="field"><legend>Service needed</legend><div class="chips chips--cols" data-options="services"></div></fieldset><fieldset class="field"><legend>Budget range</legend><div class="chips chips--list" data-options="budgets"></div></fieldset><div class="field"><label for="q-timeline">Preferred timeline</label><select id="q-timeline" name="timeline" data-options="timelines"><option value="">Select a timeline</option></select></div>
+      </div>
+        <div class="step-panel" hidden>
+        <p class="step-count">Step 3 of 3</p>
+        <h2>Project details</h2>
+        <p class="lead">Describe your idea, goals or problem. A few lines is enough.</p>
+        <div class="field"><label for="q-details">Project details<span class="req" aria-hidden="true">*</span></label><textarea id="q-details" name="q-details" rows="5" aria-required="true" data-validate="required" data-label="project details"></textarea></div>
+      </div>
+        <div class="form-actions">
+          <button class="btn btn-line btn-back" type="button" hidden><svg class="i i--flip" aria-hidden="true"><use href="./assets/img/icons.svg#arrow"/></svg> Back</button>
+          <button class="btn btn-dark btn-next" type="button">Next <svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#arrow"/></svg></button>
+          <button class="btn btn-dark btn-submit" type="submit" hidden>Request My Quote <svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#arrow"/></svg></button>
+        </div>
+      </form>
+      <div class="form-success" id="quote-success" hidden>
+        <span class="ic"><svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#check"/></svg></span>
+        <h2>Thank you.</h2>
+        <p>Your quote request has been sent.</p>
+        <a class="btn btn-dark" href="./index.html" data-route="home">Back to Home</a>
+      </div>
+    </div>
+    <aside class="quote-aside" aria-label="About your quote">
+      <div class="card aside-dark">
+        <h2>What happens next</h2>
+        <p class="lead">Three simple steps from your request to your quote.</p>
+        <ol class="next-steps">
+          <li><b>We review</b><span>Our team reads your project details.</span></li>
+          <li><b>We contact you</b><span>We reach out to clarify anything we need.</span></li>
+          <li><b>You receive your quote</b><span>A clear quote with scope, timeline and cost.</span></li>
+        </ol>
+      </div>
+      <div class="card aside-help">
+        <span class="ic"><svg class="i" aria-hidden="true"><use href="./assets/img/icons.svg#headset"/></svg></span>
+        <div><h3>Prefer to talk?</h3><p>Call <a data-site="phone"></a> or email <a data-site="email"></a>.</p></div>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<!-- Section: Footer -->
+<div id="site-footer"></div>
+<script src="./assets/js/layout.js" defer></script>
+<script src="./assets/js/router.js" defer></script>
+<script src="./assets/js/reveal.js" defer></script>
+<script src="./assets/js/render.js" defer></script>
+<script src="./assets/js/nav.js" defer></script>
+<script src="./assets/js/faq.js" defer></script>
+<script src="./assets/js/form.js" defer></script>
+</body>
+</html>
