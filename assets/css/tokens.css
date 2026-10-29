@@ -1,22 +1,22 @@
 /* Design tokens. Scale matches the ICT OPTION home page. */
 :root {
-  --ink: #0b0f1a;
-  --blue: #1e90e8;
-  --blue-dark: #1577c7;
-  --blue-light: #3fa6f5;
-  --soft: #e8f2fd;
-  --mute: #5f86b0;
-  --line: #e6edf5;
-  --line-strong: #d5e0ee;
-  --dark: #060a12;
-  --bg: #f4f8fc;
-  --white: #fff;
-  --text: #1d2f4a;
-  --text-soft: #4b6584;
-  --danger: #c62828;
-  --danger-soft: #fdecec;
-  --success: #1e7e34;
-  --success-soft: #e8f6ec;
+  --ink: #edf9ff;
+  --blue: #6bb9ff;
+  --blue-dark: #99d2ff;
+  --blue-light: #a7d8ff;
+  --soft: rgba(107, 185, 255, 0.16);
+  --mute: #bfdaf7;
+  --line: rgba(149, 208, 255, 0.2);
+  --line-strong: rgba(147, 202, 255, 0.35);
+  --dark: #061521;
+  --bg: #061421;
+  --white: rgba(10, 19, 31, 0.58);
+  --text: #edf9ff;
+  --text-soft: #cfe5ff;
+  --danger: #ff6b7b;
+  --danger-soft: rgba(255, 107, 123, 0.12);
+  --success: #7ae0aa;
+  --success-soft: rgba(122, 224, 170, 0.12);
 
   --font-head: "Poppins", Arial, sans-serif;
   --font-body: "Poppins", Arial, sans-serif;
