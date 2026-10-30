@@ -58,9 +58,9 @@ ul{list-style:none}
 
 /* services */
 .services{padding:20px 0 22px}
-.sec-head{display:flex;justify-content:space-between;align-items:flex-start}
-h2{font-size:27px;font-weight:700;line-height:1.2;letter-spacing:-.3px;color:#ecf7ff}
-.services h2{margin:6px 0 2px}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-start;color:#0066FF}
+h2{font-size:27px;font-weight:700;line-height:1.2;letter-spacing:-.3px;color:#0066FF}
+.services h2{margin:6px 0 2px;color:#0066FF}
 .viewall{display:flex;align-items:center;gap:8px;font-size:14px;margin-top:20px;color:#9ad0ff}
 .viewall .i{width:12px;height:12px;stroke-width:2.4}
 .cards{display:grid;grid-template-columns:repeat(6,1fr);gap:15px;margin-top:20px}

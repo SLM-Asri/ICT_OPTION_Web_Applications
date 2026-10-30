@@ -7,8 +7,8 @@
   }
 
   body {
-    font-size: 16px;
-    line-height: 1.65;
+    font-size: 17px;
+    line-height: 1.75;
   }
 
   h1 {
@@ -30,7 +30,7 @@
 
   .section-head .lead,
   .lead {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .header .wrap {
