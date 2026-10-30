@@ -25,7 +25,7 @@
 
     var p = location.pathname.replace(/\/+$/, "") || "/";
     var section = /^\/(services|service-detail)/.test(p) ? "services"
-      : /^\/(products|product-detail)/.test(p) ? "products"
+      : /^\/(optivity)/.test(p) ? "optivity"
       : /^\/about/.test(p) ? "about"
       : /^\/portfolio/.test(p) ? "portfolio"
       : /^\/(blog|blog-post)/.test(p) ? "blog"

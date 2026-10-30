@@ -24,7 +24,7 @@
     "image": "./assets/img/photos/mobile-device.jpg",
     "imageAlt": "Smartphone ready to test a mobile application",
     "body": [
-      "Native apps are built separately for iOS and Android. They can use every device feature and feel very smooth, but you build and maintain two products.",
+      "Native apps are built separately for iOS and Android. They can use every device feature and feel very smooth, but you build and maintain two app versions.",
       "Cross-platform apps share most of their code between both systems. That usually means a faster start and lower cost, with a few limits for very device-specific features.",
       "The right choice depends on your budget, timeline and the features you need. Start with what your customers must be able to do, then pick the approach that delivers it reliably."
     ]
@@ -57,21 +57,6 @@
       "Many security incidents begin with a weak password or a convincing email. Strong, unique passwords and a password manager remove a large share of the risk.",
       "Turn on two-step verification, keep software updated and back up important data in a second location. Check that you can actually restore from those backups.",
       "Make security part of your culture. A short regular reminder about suspicious emails does more than a long policy that nobody reads."
-    ]
-  },
-  {
-    "slug": "cloud-pos",
-    "title": "How a Cloud POS Can Simplify Retail Operations",
-    "category": "Products",
-    "date": "2026-09-12",
-    "readTime": "4 min read",
-    "excerpt": "Why more shops are moving sales and stock into the cloud.",
-    "image": "./assets/img/photos/retail-pos.jpg",
-    "imageAlt": "Point-of-sale payment at a retail counter",
-    "body": [
-      "A cloud point-of-sale system keeps sales, stock and customer records in one place that you can open from any device with an internet connection.",
-      "Because stock updates as you sell, you see what is running low before it becomes a problem. Reports show your best-selling items and your busiest hours.",
-      "For shops with more than one counter or branch, a cloud POS also means everyone works from the same up-to-date information."
     ]
   },
   {

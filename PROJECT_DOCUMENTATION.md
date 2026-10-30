@@ -1,7 +1,7 @@
 # ICT OPTION Website Project Documentation
 
 ## 1. Project Overview
-ICT OPTION is a corporate website for an IT and digital solutions company based in Sri Lanka. The website is designed to present the company’s services, products, portfolio, blog, and contact/quote inquiry flow to potential clients and business partners.
+ICT OPTION is a corporate website for an IT and digital solutions company based in Sri Lanka. The website is designed to present the company’s services, portfolio, blog, and contact/quote inquiry flow to potential clients and business partners.
 
 The current implementation is a static front-end website that focuses on responsiveness, branding, conversion, and SEO-friendly presentation.
 
@@ -9,7 +9,7 @@ The current implementation is a static front-end website that focuses on respons
 The website aims to:
 - Promote ICT Option as a technology and digital transformation partner
 - Showcase IT services such as web development, mobile app development, cloud solutions, AI, marketing, cybersecurity, and consulting
-- Present company products and previous work
+- Present company services and previous work
 - Generate inquiries through contact and quote forms
 - Build trust through a professional visual identity and content structure
 
@@ -38,14 +38,13 @@ The website aims to:
 - `index.html` – main homepage
 - `about.html` – company information
 - `services.html` – service listing
-- `products.html` – products showcase
 - `portfolio.html` – completed work showcase
 - `blog.html` – blog/news overview
 - `contact.html` – contact page
 - `quote.html` – quote request page
 - `assets/css/` – site styling and Tailwind output
 - `assets/js/` – dynamic behavior, rendering, forms, navigation, reveal effects
-- `content/` – JSON files for services, products, blog, FAQs, forms, and site metadata
+- `content/` – JSON files for services, blog, FAQs, forms, and site metadata
 
 ## 4. Main Languages and Stack Summary
 ### Languages
@@ -71,7 +70,7 @@ The website aims to:
 - Home page with hero section and service highlight cards
 - About page with company story and team sections
 - Services page with service categories and detail pages
-- Products page with product listing
+- Solutions-focused content and service listing
 - Portfolio page with project showcase and filters
 - Blog page with featured article cards
 - Contact page with company contact details and FAQ

@@ -1,20 +1,23 @@
 /* Design tokens. Scale matches the ICT OPTION home page. */
 :root {
+  --primary-bg: #102542;
+  --secondary-bg: #0B1B33;
+  --primary-bg-soft: rgba(16, 37, 66, 0.82);
   --ink: #f8feff;
   --blue: #0066FF;
-  --blue-dark: #00A9E8;
-  --blue-light: #dffeff;
-  --soft: rgba(0, 191, 255, 0.12);
-  --mute: #cbd5e1;
-  --line: rgba(0, 191, 255, 0.24);
-  --line-strong: rgba(0, 229, 255, 0.45);
+  --blue-dark: #0052cc;
+  --blue-light: #dfe9ff;
+  --soft: rgba(0, 102, 255, 0.12);
+  --mute: #d1d5db;
+  --line: rgba(0, 102, 255, 0.24);
+  --line-strong: rgba(0, 102, 255, 0.45);
   --dark: #102542;
   --bg: #102542;
-  --bg-panel: #061D3A;
-  --bg-panel-strong: #0b2342;
+  --bg-panel: #0B1B33;
+  --bg-panel-strong: #122b4a;
   --white: rgba(8, 24, 40, 0.7);
   --text: #ffffff;
-  --text-soft: #cbd5e1;
+  --text-soft: #d1d5db;
   --danger: #ff6b7b;
   --danger-soft: rgba(255, 107, 123, 0.12);
   --success: #7ae0aa;

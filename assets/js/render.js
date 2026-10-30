@@ -43,16 +43,6 @@
       el("a", { class: "card__link", href: ICT.detailUrl("services", s.slug) }, ["Explore Service ", ICT.icon("arrow"), el("span", { class: "visually-hidden", text: ": " + s.name })])
     ]);
   }
-  function productCard(p) {
-    return el("article", { class: "card card--product reveal" }, [
-      el("img", { src: p.image, alt: p.imageAlt, width: "480", height: "320", loading: "lazy" }),
-      el("div", { class: "card__body" }, [
-        el("h3", { text: p.name }),
-        el("p", { text: p.card }),
-        el("a", { class: "card__link", href: ICT.detailUrl("products", p.slug) }, ["Explore Product ", ICT.icon("arrow"), el("span", { class: "visually-hidden", text: ": " + p.name })])
-      ])
-    ]);
-  }
   function featureCard(f, mod) {
     return el("article", { class: "card card--" + mod + " reveal" }, [el("span", { class: "ic" }, [ICT.icon(f.icon)]), el("h3", { text: f.title }), f.text ? el("p", { text: f.text }) : null]);
   }
@@ -107,7 +97,6 @@
   /* data-render blocks (static pages) */
   var BLOCKS = {
     "service-cards": function (t) { return ICT.json("services").then(function (l) { fill(t, l.map(serviceCard)); }); },
-    "product-cards": function (t) { return ICT.json("products").then(function (l) { fill(t, l.map(productCard)); }); },
     "portfolio": function (t) {
       return ICT.json("portfolio").then(function (d) {
         var grid = el("div", { class: "grid grid--3" }, d.items.map(projectCard));
@@ -169,23 +158,6 @@
       fill(document.getElementById("sd-faq"), [faq(r[2].service.slice(0, 3), "sf", s.name)]);
     });
   }
-  function productDetail() {
-    return ICT.json("products").then(function (list) {
-      var p = ICT.entry("products", list);
-      if (!p) return ICT.toNotFound();
-      setMeta(p.name + " | ICT OPTION", p.lead, "/products/" + p.slug);
-      setText("#pd-tag", p.tag);
-      fill(document.getElementById("pd-title"), [el("b", { text: p.name })]);
-      setText("#pd-lead", p.lead);
-      setText("#pd-cta-title", "Ready to Try " + p.name + "?");
-      var img = document.getElementById("pd-image");
-      img.setAttribute("src", p.image);
-      img.setAttribute("alt", p.imageAlt);
-      crumbs(document.getElementById("crumb"), [["Home", "home"], ["Products", "products"], [p.name]]);
-      fill(document.getElementById("pd-features"), p.features.map(function (f) { return featureCard(f, "feature"); }));
-    });
-  }
-
   function blogPost() {
     return ICT.json("blog").then(function (list) {
       var p = ICT.entry("blog", list);
@@ -223,7 +195,6 @@
     var main = document.getElementById("main");
     if (page === "service-detail") jobs.push(serviceDetail().catch(function () { ICT.notice(main, "This page could not be loaded. Please refresh."); }));
     if (page === "blog-post") jobs.push(blogPost().catch(function () { ICT.notice(main, "This page could not be loaded. Please refresh."); }));
-    if (page === "product-detail") jobs.push(productDetail().catch(function () { ICT.notice(main, "This page could not be loaded. Please refresh."); }));
     ICT.links(document);
     legalToc();
     return Promise.all(jobs);

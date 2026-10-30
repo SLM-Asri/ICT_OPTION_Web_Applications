@@ -42,11 +42,9 @@
   function fillServices(form) {
     var box = form.querySelector('[data-options="services"]');
     if (!box) return Promise.resolve();
-    return Promise.all([ICT.json("services"), ICT.json("products")]).then(function (r) {
+    return ICT.json("services").then(function (items) {
       box.appendChild(el("p", { class: "chips-label", text: "Services" }));
-      r[0].forEach(function (s) { box.appendChild(chip("checkbox", "service", s.slug, s.name)); });
-      box.appendChild(el("p", { class: "chips-label", text: "Products" }));
-      r[1].forEach(function (p) { box.appendChild(chip("checkbox", "service", p.slug, p.name)); });
+      items.forEach(function (s) { box.appendChild(chip("checkbox", "service", s.slug, s.name)); });
     });
   }
 

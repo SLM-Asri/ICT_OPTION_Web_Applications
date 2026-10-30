@@ -2,7 +2,7 @@
 (function () {
   "use strict";
   var NS = "http://www.w3.org/2000/svg";
-  var FILES = { home: "index.html", services: "services.html", products: "products.html", about: "about.html", portfolio: "portfolio.html", blog: "blog.html", contact: "contact.html", quote: "quote.html", privacy: "privacy.html", terms: "terms.html", "404": "404.html" };
+  var FILES = { home: "index.html", services: "services.html", optivity: "optivity.html", about: "about.html", portfolio: "portfolio.html", blog: "blog.html", contact: "contact.html", quote: "quote.html", privacy: "privacy.html", terms: "terms.html", "404": "404.html" };
   var cache = {};
   var site = null;
   var ICT = (window.ICT = {});
@@ -22,7 +22,7 @@
   };
   ICT.detailUrl = function (kind, slug) {
     if (site && site.cleanUrls) return "./" + kind + "/" + slug;
-    var f = { services: "service-detail.html", products: "product-detail.html", blog: "blog-post.html" }[kind];
+    var f = { services: "service-detail.html", blog: "blog-post.html" }[kind];
     return "./" + f + "?slug=" + slug;
   };
   ICT.el = function (tag, attrs, kids) {
@@ -133,9 +133,9 @@
   ICT.ready = ICT.json("site").then(function (s) { site = s; ICT.site = s; return s; });
   ICT.layout = ICT.ready
     .then(function (s) {
-      return Promise.all([ICT.json("services").catch(function () { return []; }), ICT.json("products").catch(function () { return []; })]).then(function (r) {
+      return ICT.json("services").catch(function () { return []; }).then(function (svc) {
         buildHeader(s);
-        buildFooter(s, r[0]);
+        buildFooter(s, svc);
         ICT.links(document);
         bindSite(s);
       });

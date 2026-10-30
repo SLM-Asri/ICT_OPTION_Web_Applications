@@ -22,8 +22,8 @@
       "route": "services"
     },
     {
-      "label": "Products",
-      "route": "products"
+      "label": "OPTIVITY",
+      "route": "optivity"
     },
     {
       "label": "Portfolio",
@@ -56,8 +56,8 @@
       "route": "services"
     },
     {
-      "label": "Products",
-      "route": "products"
+      "label": "OPTIVITY",
+      "route": "optivity"
     },
     {
       "label": "Portfolio",
