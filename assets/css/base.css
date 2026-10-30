@@ -14,7 +14,7 @@ body {
   font-size: 17px;
   line-height: 1.75;
   color: var(--text);
-  background: linear-gradient(180deg, #031329 0%, #061d3a 100%);
+  background: linear-gradient(180deg, var(--dark) 0%, #061d3a 100%);
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

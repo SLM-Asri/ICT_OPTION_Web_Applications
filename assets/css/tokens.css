@@ -1,15 +1,15 @@
 /* Design tokens. Scale matches the ICT OPTION home page. */
 :root {
   --ink: #f8feff;
-  --blue: #00BFFF;
+  --blue: #0066FF;
   --blue-dark: #00A9E8;
   --blue-light: #dffeff;
   --soft: rgba(0, 191, 255, 0.12);
   --mute: #cbd5e1;
   --line: rgba(0, 191, 255, 0.24);
   --line-strong: rgba(0, 229, 255, 0.45);
-  --dark: #031329;
-  --bg: #031329;
+  --dark: #102542;
+  --bg: #102542;
   --bg-panel: #061D3A;
   --bg-panel-strong: #0b2342;
   --white: rgba(8, 24, 40, 0.7);

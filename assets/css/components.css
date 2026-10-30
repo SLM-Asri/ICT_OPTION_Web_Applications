@@ -54,7 +54,7 @@
 .i { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 
 /* ---------- Footer (same as the index page) ---------- */
-.footer { background: linear-gradient(180deg, #031329 0%, #061d3a 100%); color: #cfd8e6; border-top: 1px solid rgba(0, 191, 255, 0.2); }
+.footer { background: linear-gradient(180deg, var(--dark) 0%, #061d3a 100%); color: #cfd8e6; border-top: 1px solid rgba(0, 191, 255, 0.2); }
 .foot-grid { display: grid; grid-template-columns: 1fr; gap: 20px; padding-top: 22px; padding-bottom: 18px; }
 .f-brand p { font-size: 14px; margin: 8px 0 10px; color: #e6edf6; }
 .social { display: flex; gap: 10px; }
