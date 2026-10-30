@@ -93,10 +93,6 @@ p + p { margin-top: 10px; }
 strong, b { color: #0066FF; font-weight: 700; }
 a { color: inherit; transition: color .2s ease, text-shadow .2s ease; }
 a:hover { color: #0066FF; text-shadow: 0 0 16px rgba(0, 102, 255, 0.18); }
-.menu a,
-.f-col a { text-transform: lowercase; }
-.menu a[data-route="optivity"],
-.f-col a[data-route="optivity"] { text-transform: uppercase; }
 
 :focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; border-radius: 4px; }
 .skip-link { position: absolute; left: 16px; top: -100px; z-index: 100; background: var(--ink); color: #fff; padding: 10px 18px; border-radius: 6px; font-weight: 600; }
