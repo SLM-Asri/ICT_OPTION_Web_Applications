@@ -1,0 +1,34 @@
+/* Design tokens: ICT Option blueprint v1.0, Ch. 02 (neon blue on deep navy). No red anywhere. */
+:root {
+  --midnight: #00061A; --deep-navy: #001029; --navy-card: #06183D; --navy-line: #0B2557;
+  --cyan: #00E5FF; --sky: #00B4FF; --electric: #0066FF;
+  --gradient: linear-gradient(135deg, #00E5FF 0%, #0057FF 100%);
+  --white: #FFFFFF; --mist: #B9CCEB; --slate: #7F93B8;
+  --success: #22D39A; --coral: #FF6B7A; /* coral: form validation only */
+  /* OptiVision category accents (approved flyer) */
+  --ov-signature: #FF8A6B; --ov-pro: #3D8BFF; --ov-aerial: #1FD1C1; --ov-edit: #9B7BFF;
+
+  --bg: var(--midnight); --bg-alt: var(--deep-navy); --bg-card: var(--navy-card); --line: var(--navy-line);
+  --text: var(--mist); --heading: var(--white); --muted: var(--slate);
+  --danger: var(--coral); --danger-soft: rgba(255,107,122,.12);
+  --success-soft: rgba(34,211,154,.12);
+
+  --font-head: "Poppins", Arial, sans-serif;
+  --font-body: "Inter", Arial, sans-serif;
+
+  --radius-pill: 999px; --radius-card: 16px; --radius-img: 12px; --radius-input: 12px;
+  --glow: 0 0 24px rgba(0,229,255,.35);
+  --glow-card: 0 0 0 1px rgba(0,229,255,.55), 0 10px 32px rgba(0,229,255,.18);
+
+  /* spacing scale (4px base) used by ported components */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 40px; --s8: 48px; --s9: 64px; --s10: 80px; --s11: 120px;
+  --grad-135: var(--gradient); --grad-text: linear-gradient(90deg, #00E5FF 0%, #00B4FF 55%, #0057FF 100%);
+  --card-bg: linear-gradient(180deg, #06183D 0%, #04122E 100%);
+  --cyan-06: rgba(0,229,255,.06); --cyan-10: rgba(0,229,255,.10); --cyan-18: rgba(0,229,255,.18); --cyan-32: rgba(0,229,255,.32);
+  --font-display: var(--font-head); --fs-small: 14px; --gutter: 24px; --r-card: 16px; --r-img: 12px; --header-h-lg: 80px;
+  --ease: cubic-bezier(.22,.61,.36,1); --t: 280ms; --navy-line: #0B2557; --ov-accent: #00B4FF;
+  --header-h: 80px; --header-h-scrolled: 68px;
+  --container: 1240px; --pad-x: 20px; --section-y: 72px;
+}
+@media (min-width: 768px)  { :root { --pad-x: 32px; } }
+@media (min-width: 1024px) { :root { --pad-x: 48px; --section-y: 120px; } }

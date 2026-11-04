@@ -1,0 +1,75 @@
+{
+  "values": [
+    [
+      "O",
+      "Ownership",
+      "We treat every client's project like our own business."
+    ],
+    [
+      "P",
+      "Progress",
+      "We keep learning, improving and adopting what's next."
+    ],
+    [
+      "T",
+      "Trust",
+      "Honest pricing, honest timelines, honest advice. Always."
+    ],
+    [
+      "I",
+      "Innovation",
+      "We look for smarter ways to solve everyday problems."
+    ],
+    [
+      "O",
+      "Openness",
+      "Clear communication. No jargon, no surprises."
+    ],
+    [
+      "N",
+      "Nurturing Talent",
+      "We grow people, from interns to industry leaders."
+    ]
+  ],
+  "timeline": [
+    "[[Year]]: ICT Option founded",
+    "[[Year]]: first [[X]] clients served",
+    "2024: ICT Option Poson Dansala, our first community service event",
+    "2026: new brand identity launched",
+    "2026: Anuradhapura Intern Team of 14 begins",
+    "2026: OptiVision launched"
+  ],
+  "leaders": [
+    {
+      "name": "Sahan Dushmantha De Silva",
+      "role": "Founder & CEO",
+      "bio": "Founded ICT Option to make smart technology accessible to every Sri Lankan business. Leads the company's vision across IT solutions, digital imaging and talent development, with a background spanning IT, cybersecurity and business.",
+      "power": "Turning ideas into businesses",
+      "quote": "Technology should solve real problems for real people."
+    },
+    {
+      "name": "[[Name]]",
+      "role": "Company Secretary",
+      "bio": "Keeps ICT Option running smoothly behind the scenes: governance, compliance, documentation, and making sure every commitment is met.",
+      "power": "Order in the chaos"
+    },
+    {
+      "name": "[[Name]]",
+      "role": "Head of Development",
+      "bio": "Leads the development team in building websites, apps and systems, and ensures every line of code is clean, secure and built to last.",
+      "power": "Turning coffee into code"
+    },
+    {
+      "name": "[[Name]]",
+      "role": "Head of HR",
+      "bio": "Builds the team behind the technology, from hiring and training to running our intern programme and growing a culture where talent thrives.",
+      "power": "Spotting talent early"
+    },
+    {
+      "name": "[[Name]]",
+      "role": "Head of Marketing",
+      "bio": "Drives ICT Option's brand and growth, and leads the campaigns that bring results for our clients and for us.",
+      "power": "Making brands impossible to ignore"
+    }
+  ]
+}

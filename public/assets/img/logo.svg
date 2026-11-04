@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-label="ICT Option">
+  <defs>
+    <linearGradient id="icoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#0057FF"/>
+    </linearGradient>
+    <linearGradient id="icoText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CFEFFF"/>
+    </linearGradient>
+    <filter id="icoGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- mark: circuit aperture -->
+  <g filter="url(#icoGlow)">
+    <path d="M30 6 52 18v28L30 58 8 46V18Z" fill="none" stroke="url(#icoGrad)" stroke-width="2.4" stroke-linejoin="round"/>
+    <circle cx="30" cy="32" r="9" fill="none" stroke="url(#icoGrad)" stroke-width="2.4"/>
+    <circle cx="30" cy="32" r="3" fill="#00E5FF"/>
+    <path d="M30 6v8M30 50v8M8 32h8M44 32h8M14 19l6 4M40 41l6 4M46 19l-6 4M20 41l-6 4"
+          stroke="#00E5FF" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="70" y="34" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800"
+        letter-spacing="1.2" fill="url(#icoText)">ICT</text>
+  <text x="137" y="34" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800"
+        letter-spacing="1.2" fill="url(#icoGrad)">OPTION</text>
+  <text x="71" y="50" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="8.4" font-weight="500"
+        letter-spacing="3.1" fill="#7F93B8">SMART TECHNOLOGY</text>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "name": "ERP Solutions",
+  "modules": [
+    [
+      "chart",
+      "Sales & POS"
+    ],
+    [
+      "clip",
+      "Inventory"
+    ],
+    [
+      "users",
+      "Purchasing"
+    ],
+    [
+      "monitor",
+      "Accounts & Invoicing"
+    ],
+    [
+      "users",
+      "HR & Payroll"
+    ],
+    [
+      "headset",
+      "Customers (CRM)"
+    ],
+    [
+      "chart",
+      "Reports & Dashboards"
+    ]
+  ],
+  "pains": [
+    "Stock that never matches",
+    "Hours lost on reports",
+    "No idea what's selling"
+  ],
+  "for": [
+    "Retail shops",
+    "Distributors",
+    "Small manufacturers",
+    "Hotels & restaurants",
+    "Service businesses"
+  ],
+  "faqs": [
+    "Do I need to install anything?",
+    "Can it work offline?",
+    "Can you move my existing data?",
+    "Is training included?",
+    "What happens to my data if I stop?"
+  ]
+}

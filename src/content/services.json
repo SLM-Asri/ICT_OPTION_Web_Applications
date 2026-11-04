@@ -1,0 +1,284 @@
+[
+  {
+    "slug": "web-development",
+    "name": "Web Development",
+    "icon": "code",
+    "card": "Fast, mobile-friendly websites that turn visitors into customers, from business sites to online shops and custom web systems.",
+    "theme": "Your 24/7 Shopfront",
+    "hero": "Your Business Never Closes Online",
+    "lead": "While you sleep, your website sells. We build sites that load fast, look sharp and turn visitors into customers.",
+    "build": [
+      "The Digital Storefront",
+      "ShopLive",
+      "SmartSystems",
+      "ClickMagnet Pages",
+      "Glow-Up Redesign",
+      "CarePlan"
+    ],
+    "who": [
+      "Shops",
+      "Hotels",
+      "Restaurants",
+      "Schools",
+      "Clinics",
+      "Startups",
+      "SMEs"
+    ],
+    "process": [
+      "Sketch it",
+      "Design it",
+      "Code it",
+      "Launch it"
+    ],
+    "tools": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Laravel",
+      "WordPress",
+      "MySQL"
+    ],
+    "faqs": [
+      "How long does a website take?",
+      "Will it work on mobile phones?",
+      "Can I update the content myself?",
+      "Do you provide hosting and a domain?"
+    ],
+    "image": "./assets/img/service-web-development.svg",
+    "imageAlt": "Web Development illustration",
+    "cta": "Build My Website",
+    "closingCta": "Get a Free Quote",
+    "closing": "Your competitors are already online. Let's make you the one they're worried about."
+  },
+  {
+    "slug": "mobile-apps",
+    "name": "Mobile Apps",
+    "icon": "phone",
+    "card": "Android and iOS apps for bookings, orders, loyalty and staff, designed to be simple for your customers to use.",
+    "theme": "In Your Customer's Pocket",
+    "hero": "Be One Tap Away from Your Customers",
+    "lead": "Your customers carry their phones everywhere. Make sure your business is on them.",
+    "build": [
+      "TapOrder",
+      "BookIt",
+      "TeamPocket",
+      "LoyaltyLoop",
+      "PixelPerfect UI",
+      "StoreReady"
+    ],
+    "who": [
+      "Restaurants",
+      "Delivery businesses",
+      "Salons",
+      "Gyms",
+      "Transport",
+      "Retail chains"
+    ],
+    "process": [
+      "Dream it",
+      "Wireframe it",
+      "Build it",
+      "Ship it"
+    ],
+    "tools": [
+      "Flutter",
+      "React Native",
+      "Firebase",
+      "Android Studio",
+      "Xcode"
+    ],
+    "faqs": [
+      "Android only, or iOS too?",
+      "How much does an app cost?",
+      "Can the app connect to my website or system?",
+      "Who publishes it to the app stores?"
+    ],
+    "image": "./assets/img/service-mobile-app-development.svg",
+    "imageAlt": "Mobile Apps illustration",
+    "cta": "Start My App",
+    "closingCta": "Start My App",
+    "closing": "Got an app idea sitting in your notes? Let's build it."
+  },
+  {
+    "slug": "ai-automation",
+    "name": "AI & Automation",
+    "icon": "brain",
+    "card": "Chatbots, smart reports and automated workflows that save your team hours every week.",
+    "theme": "Your Smartest Employee",
+    "hero": "Hire an Employee That Never Sleeps",
+    "lead": "AI that answers customers at midnight, writes your reports and handles the boring work, so your team can do the thinking.",
+    "build": [
+      "ChatGenie",
+      "AutoPilot",
+      "InsightBoard",
+      "DocReader",
+      "Predict+",
+      "AI Connect"
+    ],
+    "who": [
+      "Businesses with many customer messages, manual paperwork or lots of data"
+    ],
+    "process": [
+      "Spot the Time-Waster",
+      "Build a Prototype",
+      "Plug It In",
+      "It Learns & Improves"
+    ],
+    "tools": [
+      "Python",
+      "OpenAI / Claude APIs",
+      "TensorFlow",
+      "Power BI",
+      "n8n / Make"
+    ],
+    "faqs": [
+      "Is AI expensive for a small business?",
+      "Will it replace my staff?",
+      "Can a chatbot reply in Sinhala?",
+      "Is my data safe?"
+    ],
+    "image": "./assets/img/service-ai-machine-learning.svg",
+    "imageAlt": "AI & Automation illustration",
+    "cta": "Automate My Business",
+    "closingCta": "Book a Free Consultation",
+    "closing": "How many hours a week does your team lose to repetitive work? Let's get them back."
+  },
+  {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "icon": "mega",
+    "card": "Facebook, TikTok and Google campaigns, content and page management that bring real enquiries, not just likes.",
+    "theme": "Get Seen. Get Chosen.",
+    "hero": "Stop Posting. Start Growing.",
+    "lead": "Likes don't pay bills. We create campaigns that bring messages, calls and customers.",
+    "build": [
+      "SocialPulse",
+      "AdLaunch",
+      "ContentLab",
+      "RankUp SEO",
+      "BrandForge",
+      "ClearReports"
+    ],
+    "who": [
+      "Local businesses",
+      "New brands",
+      "Hotels",
+      "Shops",
+      "Institutes",
+      "Events"
+    ],
+    "process": [
+      "Listen",
+      "Plan",
+      "Launch",
+      "Measure",
+      "Repeat"
+    ],
+    "tools": [
+      "Meta Business Suite",
+      "Google Ads",
+      "Canva",
+      "Adobe Creative Suite",
+      "Google Analytics"
+    ],
+    "faqs": [
+      "How soon will I see results?",
+      "What's the minimum ad budget?",
+      "Do you create the posts and videos too?",
+      "Will I get reports?"
+    ],
+    "image": "./assets/img/service-digital-marketing.svg",
+    "imageAlt": "Digital Marketing illustration",
+    "cta": "Grow My Business",
+    "closingCta": "Get a Marketing Plan",
+    "closing": "Your customers are scrolling right now. Let's make them stop at you."
+  },
+  {
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "icon": "shield",
+    "card": "Security checks, website protection and staff awareness to keep your data, systems and customers safe.",
+    "theme": "Your Digital Bodyguard",
+    "hero": "Hackers Don't Knock. Be Ready.",
+    "lead": "One breach can cost you your data, your money and your customers' trust. We lock the doors before anyone tries them.",
+    "build": [
+      "ShieldScan",
+      "SiteGuard",
+      "Ethical Hack Test",
+      "SafeVault",
+      "HumanFirewall",
+      "PolicyPro"
+    ],
+    "who": [
+      "Any business handling customer data, payments or online systems"
+    ],
+    "process": [
+      "Scan",
+      "Report",
+      "Fix",
+      "Watch"
+    ],
+    "tools": [
+      "Nmap",
+      "Burp Suite",
+      "Wireshark",
+      "Cloudflare",
+      "OWASP standards"
+    ],
+    "faqs": [
+      "Is my small business really a target?",
+      "What happens in a security audit?",
+      "My website was hacked. Can you help?",
+      "How often should we check security?"
+    ],
+    "image": "./assets/img/service-cybersecurity.svg",
+    "imageAlt": "Cybersecurity illustration",
+    "cta": "Secure My Business",
+    "closingCta": "Get a Security Check",
+    "closing": "Most attacks hit businesses that thought \"it won't happen to us\". Don't be next."
+  },
+  {
+    "slug": "it-consulting",
+    "name": "IT Consulting",
+    "icon": "compass",
+    "card": "Not sure what technology you need? We assess your business and give you a clear, budget-friendly plan.",
+    "theme": "Your Tech Navigator",
+    "hero": "Confused by Technology? We'll Draw You the Map.",
+    "lead": "Too many tools, too many choices. We tell you exactly what your business needs, and what it doesn't.",
+    "build": [
+      "GoDigital Roadmap",
+      "Right-Fit Advisor",
+      "SetupSquad",
+      "ProjectPilot",
+      "ProcessX-Ray",
+      "TechBuddy Support"
+    ],
+    "who": [
+      "Growing businesses unsure where to start with technology"
+    ],
+    "process": [
+      "Understand",
+      "Advise",
+      "Plan",
+      "Deliver"
+    ],
+    "tools": [
+      "Google Workspace",
+      "Microsoft 365",
+      "Cloud platforms",
+      "Jira",
+      "Network tools"
+    ],
+    "faqs": [
+      "Do I need IT consulting if I'm a small business?",
+      "How do you charge?",
+      "Can you help us choose an ERP?",
+      "Do you provide ongoing support?"
+    ],
+    "image": "./assets/img/service-it-consulting.svg",
+    "imageAlt": "IT Consulting illustration",
+    "cta": "Get My Tech Plan",
+    "closingCta": "Book a Free Consultation",
+    "closing": "Stop guessing. Start with a plan."
+  }
+]

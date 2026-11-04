@@ -1,0 +1,149 @@
+{
+  "name": "ICT OPTION",
+  "descriptor": "Your Vision · Our Technology",
+  "tagline": "Smart technology and digital imaging for growing businesses.",
+  "baseUrl": "https://ictoption.com",
+  "cleanUrls": true,
+  "address": "No: 59/E, Horana Road, Kesbewa, Piliyandala, Sri Lanka",
+  "email": "info@ictoption.com",
+  "phone": "+94 76 346 5329",
+  "nav": [
+    {
+      "label": "Home",
+      "route": "home"
+    },
+    {
+      "label": "Services",
+      "route": "services"
+    },
+    {
+      "label": "OptiVision",
+      "route": "optivision"
+    },
+    {
+      "label": "ERP",
+      "route": "erp"
+    },
+    {
+      "label": "Our Work",
+      "route": "our-work"
+    },
+    {
+      "label": "About",
+      "route": "about"
+    }
+  ],
+  "quote": {
+    "label": "Contact Us",
+    "route": "contact"
+  },
+  "quickLinks": [
+    {
+      "label": "About",
+      "route": "about"
+    },
+    {
+      "label": "Our Work",
+      "route": "our-work"
+    },
+    {
+      "label": "Partners",
+      "route": "partners"
+    },
+    {
+      "label": "Careers",
+      "route": "careers"
+    },
+    {
+      "label": "Insights",
+      "route": "insights"
+    },
+    {
+      "label": "Contact",
+      "route": "contact"
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy",
+      "route": "privacy"
+    },
+    {
+      "label": "Terms",
+      "route": "terms"
+    },
+    {
+      "label": "Cookies",
+      "route": "cookies"
+    }
+  ],
+  "tag": [
+    "Secured by ICT Option Cybersecurity"
+  ],
+  "whatsapp": "94763465329",
+  "whatsappMessage": "Hi ICT Option! I'd like to know more about your services.",
+  "hours": [
+    {
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "open": 9,
+      "close": 18
+    },
+    {
+      "days": [
+        6
+      ],
+      "open": 9,
+      "close": 13
+    }
+  ],
+  "preFooter": {
+    "title": "Have a project in mind?"
+  },
+  "hoursConfirmed": true,
+  "hoursText": "Mon–Fri 9.00–18.00 · Sat 9.00–13.00 · Sunday & Poya days closed",
+  "formEndpoint": "",
+  "erpState": "live",
+  "stats": {
+    "years": "3+",
+    "projects": "60+",
+    "clients": "45+",
+    "team": "14"
+  },
+  "rating": null,
+  "social": [
+    {
+      "label": "Facebook",
+      "short": "f",
+      "url": ""
+    },
+    {
+      "label": "LinkedIn",
+      "short": "in",
+      "url": ""
+    },
+    {
+      "label": "Instagram",
+      "short": "ig",
+      "url": ""
+    },
+    {
+      "label": "TikTok",
+      "short": "tt",
+      "url": ""
+    },
+    {
+      "label": "YouTube",
+      "short": "yt",
+      "url": ""
+    }
+  ],
+  "heroHeadline": "Smart Technology for Growing Businesses",
+  "gaId": "",
+  "markSamples": true
+}

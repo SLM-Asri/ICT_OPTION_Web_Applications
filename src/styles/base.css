@@ -1,0 +1,70 @@
+/* Base: reset, type scale and buttons per blueprint Ch. 02. */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 12px); -webkit-text-size-adjust: 100%; }
+body { font: 400 16px/1.65 var(--font-body); color: var(--text); background: var(--bg); overflow-x: hidden; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+@media (min-width: 1024px) { body { font-size: 17px; } }
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+ul, ol { padding: 0; list-style: none; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+::selection { background: rgba(0,229,255,.28); color: #fff; }
+
+/* Headings: white, Poppins. One style site-wide. */
+h1, h2, h3, h4 { font-family: var(--font-head); color: var(--heading); letter-spacing: -.02em; }
+h1 { font-size: clamp(34px, 5.5vw, 60px); font-weight: 800; line-height: 1.1; }
+h2 { font-size: clamp(28px, 3.4vw, 40px); font-weight: 700; line-height: 1.2; }
+h3 { font-size: clamp(18px, 1.8vw, 22px); font-weight: 600; line-height: 1.35; }
+h4 { font-size: 16px; font-weight: 600; }
+p { color: var(--text); } p + p { margin-top: 12px; }
+small, .small { font-size: 13px; color: var(--muted); } @media (min-width: 1024px) { small, .small { font-size: 14px; } }
+strong, b { color: var(--white); font-weight: 600; }
+.accent, h1 em, h2 em { font-style: normal; background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+/* Eyebrow + gradient underline: same on every section heading */
+.eyebrow { display: block; font: 600 12px/1.4 var(--font-head); letter-spacing: .2em; text-transform: uppercase; color: var(--cyan); margin-bottom: 12px; }
+@media (min-width: 1024px) { .eyebrow { font-size: 13px; } }
+.section-head h2::after { content: ""; display: block; width: 56px; height: 3px; border-radius: 3px; background: var(--gradient); margin-top: 16px; }
+.section-head.center { text-align: center; } .section-head.center h2::after { margin-inline: auto; }
+
+/* Links */
+.link, .card__link { color: var(--sky); background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; transition: background-size .25s; }
+.link:hover, .card__link:hover { background-size: 100% 2px; }
+
+/* Focus + a11y */
+:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; border-radius: 4px; }
+.skip-link { position: absolute; left: 16px; top: -100px; z-index: 100; background: var(--white); color: var(--midnight); padding: 10px 18px; border-radius: var(--radius-pill); font-weight: 600; }
+.skip-link:focus { top: 12px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Layout */
+.container, .wrap { max-width: calc(var(--container) + 2 * var(--pad-x)); margin: 0 auto; padding-inline: var(--pad-x); }
+.section { padding-block: var(--section-y); background: var(--bg); }
+.section:nth-of-type(even), .section--alt { background: var(--bg-alt); } /* alternate Midnight / Deep Navy */
+.grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
+@media (min-width: 768px)  { .grid--2, .grid--3, .grid--4 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid--3 { grid-template-columns: repeat(3, 1fr); } .grid--4 { grid-template-columns: repeat(4, 1fr); } }
+
+/* Buttons (pill). Primary uses dark text: white on the cyan end of the gradient fails WCAG AA (~1.5:1). */
+.btn { position: relative; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 28px; border-radius: var(--radius-pill); font: 600 15px/1 var(--font-head); border: 1.5px solid transparent; transition: box-shadow .25s, background .25s; }
+.btn .i { width: 16px; height: 16px; transition: transform .25s; }
+.btn:hover .i { transform: translateX(4px); }
+.btn-primary { background: var(--gradient); color: var(--midnight); box-shadow: 0 0 18px rgba(0,229,255,.28); }
+.btn-primary:hover { box-shadow: var(--glow), 0 0 40px rgba(0,229,255,.25); }
+.btn-secondary { background: transparent; color: var(--cyan); border-color: var(--cyan); }
+.btn-secondary:hover { background: rgba(0,229,255,.1); }
+
+/* Cards */
+.card { background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 28px; transition: transform .3s, border-color .3s, box-shadow .3s; }
+.card:hover { transform: translateY(-4px); border-color: var(--cyan); box-shadow: var(--glow-card); }
+.card .ic { display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 12px; background: var(--gradient); color: var(--midnight); margin-bottom: 16px; }
+.card .ic .i, .i { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Forms: visible labels, dark fill, cyan focus. Coral only for validation. */
+label { display: block; font-weight: 500; color: var(--white); margin-bottom: 8px; }
+input, select, textarea { width: 100%; background: var(--deep-navy); border: 1px solid var(--line); border-radius: var(--radius-input); padding: 12px 16px; }
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(0,229,255,.2); }
+.is-invalid { border-color: var(--coral) !important; } .field-error { color: var(--coral); font-size: 14px; margin-top: 6px; }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }

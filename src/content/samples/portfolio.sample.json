@@ -1,0 +1,108 @@
+{
+  "filters": [
+    {
+      "key": "all",
+      "label": "All"
+    },
+    {
+      "key": "web",
+      "label": "Web"
+    },
+    {
+      "key": "mobile",
+      "label": "Mobile"
+    },
+    {
+      "key": "ai",
+      "label": "AI"
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing"
+    },
+    {
+      "key": "security",
+      "label": "Security"
+    }
+  ],
+  "items": [
+    {
+      "slug": "retail-website",
+      "title": "Retail Business Website",
+      "category": "web",
+      "categoryLabel": "Web",
+      "text": "A fast online store with product pages, secure checkout and easy stock updates.",
+      "tags": [
+        "Ecommerce",
+        "Responsive"
+      ],
+      "image": "./assets/img/photos/retail-store.jpg",
+      "imageAlt": "Modern retail store and ecommerce business"
+    },
+    {
+      "slug": "restaurant-app",
+      "title": "Restaurant Ordering App",
+      "category": "mobile",
+      "categoryLabel": "Mobile",
+      "text": "A mobile app for browsing menus, ordering and tracking pickups.",
+      "tags": [
+        "iOS",
+        "Android"
+      ],
+      "image": "./assets/img/photos/restaurant.jpg",
+      "imageAlt": "Restaurant dining room prepared for guests"
+    },
+    {
+      "slug": "clinic-portal",
+      "title": "Clinic Management Portal",
+      "category": "web",
+      "categoryLabel": "Web",
+      "text": "Appointment booking and patient records in one simple web portal.",
+      "tags": [
+        "Web App",
+        "Scheduling"
+      ],
+      "image": "./assets/img/photos/healthcare.jpg",
+      "imageAlt": "Healthcare professional working with digital records"
+    },
+    {
+      "slug": "forecast-dashboard",
+      "title": "Sales Forecasting Dashboard",
+      "category": "ai",
+      "categoryLabel": "AI",
+      "text": "A dashboard that uses machine learning to predict demand and highlight trends.",
+      "tags": [
+        "Machine Learning",
+        "Analytics"
+      ],
+      "image": "./assets/img/photos/analytics.jpg",
+      "imageAlt": "Analytics dashboard with business performance charts"
+    },
+    {
+      "slug": "marketing-campaign",
+      "title": "Social Media Campaign",
+      "category": "marketing",
+      "categoryLabel": "Marketing",
+      "text": "A multi-channel campaign with clear weekly reporting on reach and engagement.",
+      "tags": [
+        "Social Media",
+        "Reporting"
+      ],
+      "image": "./assets/img/photos/digital-campaign.jpg",
+      "imageAlt": "Digital campaign and content planning"
+    },
+    {
+      "slug": "security-audit",
+      "title": "Network Security Audit",
+      "category": "security",
+      "categoryLabel": "Security",
+      "text": "A full review of systems and access, with a practical plan to close gaps.",
+      "tags": [
+        "Audit",
+        "Protection"
+      ],
+      "image": "./assets/img/photos/cybersecurity.jpg",
+      "imageAlt": "Cybersecurity monitoring and network protection"
+    }
+  ]
+}

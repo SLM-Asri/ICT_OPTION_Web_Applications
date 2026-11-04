@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "slug": "signature",
+      "name": "Signature",
+      "what": "Weddings & Functions",
+      "tag": "Cinematic celebrations, powered by technology.",
+      "hero": "Cinematic Celebrations, Powered by Technology",
+      "cover": "Weddings, homecomings, engagements, birthdays, corporate functions, cultural and religious events",
+      "extras": "4K cinematic film, drone, same-day reel, live streaming, QR guest gallery, AI album, 360° booth",
+      "image": "./assets/img/photos/teamwork.jpg"
+    },
+    {
+      "slug": "pro",
+      "name": "Pro",
+      "what": "Corporate & Product",
+      "tag": "Sharp visuals. Stronger business.",
+      "hero": "Sharp Visuals. Stronger Business.",
+      "cover": "Product photography (white background and lifestyle), corporate headshots, office and team, launches and events, hotel and food photography, e-commerce image sets",
+      "extras": "Matching team headshots, web-ready image packs, short promo videos",
+      "image": "./assets/img/photos/office-team.jpg"
+    },
+    {
+      "slug": "aerial",
+      "name": "Aerial",
+      "what": "Drone Photo & Video",
+      "tag": "Elevating perspectives with drone precision.",
+      "hero": "Elevating Perspectives with Drone Precision",
+      "cover": "Hotels and resorts, land and real estate, construction progress, events, tourism promotion",
+      "extras": "4K aerial video, aerial stills, progress series",
+      "image": "./assets/img/photos/workspace-team.jpg",
+      "note": "Flights follow Civil Aviation Authority of Sri Lanka (CAASL) regulations. [[confirm registration and permits before launch]]"
+    },
+    {
+      "slug": "edit",
+      "name": "Edit",
+      "what": "AI Editing & Retouching",
+      "tag": "AI-powered editing. Flawless results.",
+      "hero": "AI-Powered Editing. Flawless Results.",
+      "cover": "Retouching, colour grading, background removal, old photo restoration, AI upscaling, album design, video editing",
+      "extras": "Online upload: customers send photos and get them back edited",
+      "image": "./assets/img/photos/analytics.jpg"
+    }
+  ],
+  "features": [
+    [
+      "drone",
+      "Drone & Aerial Shots",
+      "Cinematic views from above."
+    ],
+    [
+      "film",
+      "Same-Day Highlight Reels",
+      "Watch the story before the night ends."
+    ],
+    [
+      "stream",
+      "Live Streaming Worldwide",
+      "Family abroad can watch live."
+    ],
+    [
+      "qr",
+      "QR Photo Sharing",
+      "Guests scan and get their photos."
+    ],
+    [
+      "album",
+      "AI-Sorted Digital Albums",
+      "Photos grouped by person and moment."
+    ],
+    [
+      "rotate",
+      "360° Video Booth",
+      "A fun add-on guests remember."
+    ]
+  ],
+  "how": [
+    [
+      "Enquire",
+      "Tell us about your event or product."
+    ],
+    [
+      "Plan the Shoot",
+      "We visit or call to plan every shot."
+    ],
+    [
+      "Capture",
+      "Our crew shoots with the right gear."
+    ],
+    [
+      "Edit & Deliver",
+      "Edited, checked and delivered on time."
+    ]
+  ],
+  "faqs": [
+    [
+      "How far in advance should I book?",
+      "[[answer confirmed by management]]"
+    ],
+    [
+      "Do you travel outside Colombo?",
+      "[[answer confirmed by management]]"
+    ],
+    [
+      "How long until I get my photos?",
+      "[[answer confirmed by management]]"
+    ],
+    [
+      "Can family abroad watch live?",
+      "Yes, with live streaming as an add-on."
+    ]
+  ],
+  "packages": []
+}

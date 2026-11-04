@@ -1,0 +1,37 @@
+{
+  "filters": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "web",
+      "Web"
+    ],
+    [
+      "mobile",
+      "Mobile"
+    ],
+    [
+      "ai",
+      "AI"
+    ],
+    [
+      "marketing",
+      "Marketing"
+    ],
+    [
+      "security",
+      "Security"
+    ],
+    [
+      "consulting",
+      "Consulting"
+    ],
+    [
+      "optivision",
+      "OptiVision"
+    ]
+  ],
+  "items": []
+}
